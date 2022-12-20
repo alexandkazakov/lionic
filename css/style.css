@@ -459,6 +459,11 @@ body {
   color: var(--color-light);
 }
 
+.articles__center {
+  display: none;
+  text-align: center;
+}
+
 /* clients */
 .clients__item {
   flex-direction: column;

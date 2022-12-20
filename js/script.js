@@ -15,4 +15,14 @@ menuLinks.forEach(function(element) {
         menu.classList.remove('header__nav_active');
         document.body.classList.remove('stop-scroll');
     })
-})
+});
+
+let btnMore = document.querySelector('.article__btn_more');
+let articlesItems = document.querySelectorAll('.articles__item');
+
+btnMore.addEventListener('click', function() {
+    articlesItems.forEach(function(element) {
+        element.classList.add('articles__item_visible');
+    });
+    btnMore.closest('.articles__center').classList.add('articles__center_hidden');
+});

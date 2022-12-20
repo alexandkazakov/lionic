@@ -281,6 +281,14 @@
         min-height: 191px;
     }
 
+    .articles__item:nth-child(-n + 2) {
+        display: none;
+    }
+
+    .articles__item.articles__item_visible {
+        display: block;
+    }
+
     .article__link {
         flex-direction: row;
         align-items: center;
@@ -303,6 +311,15 @@
 
     .article__title {
         margin-bottom: 2px;
+    }
+
+    .articles__center {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .articles__center_hidden {
+        display: none;
     }
 
     .clients__list {
