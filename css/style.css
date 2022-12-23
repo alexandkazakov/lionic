@@ -57,6 +57,10 @@ img {
   --color-light-accent: #71a7e2;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 320px;
   font-family: 'OpenSans', sans-serif;
@@ -374,6 +378,7 @@ body {
 }
 
 .article__link {
+  width: 100%;
   transition: background-color .3s ease-in-out;
 }
 
